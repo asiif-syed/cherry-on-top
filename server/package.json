@@ -1,0 +1,32 @@
+{
+	"name": "calories-tracker",
+	"version": "1.0.0",
+	"description": "This application helps in tracking daily calories in-take. Build with MERN stack.",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/asiif-syed/calories-tracker.git"
+	},
+	"author": "Asif Syed",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/asiif-syed/calories-tracker/issues"
+	},
+	"homepage": "https://github.com/asiif-syed/calories-tracker#readme",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"cors": "^2.8.5",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"express-validator": "^6.13.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongodb": "^4.2.1",
+		"mongoose": "^6.0.14",
+		"nodemon": "^2.0.15",
+		"stripe": "^8.195.0"
+	}
+}

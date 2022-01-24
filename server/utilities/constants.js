@@ -1,0 +1,58 @@
+const constants = {
+	routes: {
+		user: '/user',
+		register: '/register',
+		login: '/login',
+		auth: '/auth',
+		resetPassword: '/reset-password',
+		usersList: '/users-list',
+		orders: '/orders',
+		products: '/products',
+		cart: '/cart',
+		checkout: '/checkout',
+	},
+	adminRoutes: {
+		admin: '/admin',
+		foodDetails: '/food-details',
+		usersList: '/users-list',
+		entriesCount: '/entries-count',
+	},
+	userFields: {
+		firstName: 'firstName',
+		lastName: 'lastName',
+		email: 'email',
+		password: 'password',
+		confirmPassword: 'confirmPassword',
+		isAdmin: 'isAdmin',
+	},
+	calorieFields: {
+		date: 'date',
+		meal: 'meal',
+		calories: 'calories',
+	},
+	roles: { user: 'user', admin: 'admin' },
+	errorMessage: {
+		emptyFirstName: 'First Name is required.',
+		emptyLastName: 'Last Name is required.',
+		invalidEmail: 'Invalid Email.',
+		emailExists: 'Email already exists.',
+		noEmailFound: 'Email does not exists.',
+		invalidPwd: 'Password is invalid.',
+		invalidPwdLength: 'Password must be 8 characters long.',
+		passwordMismatch: 'Passwords do not match.',
+		invalidRole: 'Valid role is required to register the user.',
+		invalidDate: 'Valid date is required.',
+		emptyMeal: 'Meal name is required.',
+		emptyCalories: 'Calories count is required.',
+		noToken: 'Authentication token is required.',
+		authFailed: 'Authentication failed.',
+		notAdmin: "You don't have persmissions to perform this transaction.",
+	},
+	messages: {
+		userRegistered: 'User is registered.',
+		pwdUpdated: 'Updated the password.',
+		foodEntryCreated: 'Added the food details.',
+	},
+};
+
+module.exports = { constants };
